@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,20 +12,190 @@
     <script src="../dist/bootstrap/js/jquery.min.js"></script>
     <script src="../dist/bootstrap/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    <div class="container-fluid">
+    <!-- MENU -->
+    <div class="container" style="width: 1000px;">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <!-- logo menu -->
+                <a class="navbar-brand" href=""><img src="../dist/images/logo_menu_03.png" alt="logo"></a>
+                <!-- list menu -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav" id="list-menu">
+                        <a class="nav-link active" id="select-menu" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" id="select-menu" href="#">Shop</a>
+                        <a class="nav-link" id="select-menu" href="#">Page</a>
+                        <a class="nav-link" id="select-menu" href="#">Blog</a>
+                        <a class="nav-link" id="select-menu" href="#">Contract</a>
+                    </div>
+                </div>
+                <!-- list icon menu  -->
+                <div class="navbar-nav pull-right">
+                    <a href="#" title="USER" class="nav-link"><i class="far fa-user" id="icon-menu"></i></a>
+                    <a href="#" title="SEARCH" class="nav-link"><i class="fas fa-search" id="icon-menu"></i></a>
+                    <a href="#" title="HEART" class="nav-link"><i class="far fa-heart" id="icon-menu"></i></a>
+                    <a href="#" title="SHOPPING-CART" class="nav-link"><i class="fas fa-shopping-cart"
+                            id="icon-menu"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid mt-5 mb-5">
         <div class="row">
-            <div class="col-7" style="margin-top: 70px;">
+            <div class="offset-2 col-4" style="margin-top: 70px;">
                 <h2 style="font-size: 35px; color: #28384f;">OPPS! Page Not Found!!</h2>
-                <p>We,re sorry but we can’t seem to find the pages you request. This might be because you have typed the web address not find incorrectly.</p>
+                <p>We,re sorry but we can’t seem to find the pages you request. This might be because you have typed the
+                    web address not find incorrectly.</p>
                 <button class="btn mt-4" style="background-color: #fe3e57;">
                     BACK TO HOME
                 </button>
             </div>
-            <div class="col-5">
-                <img src="../dist/images/error.png" alt="" style="width: 150%;">
+            <div class="col-4">
+                <img src="../dist/images/error.png" alt="" style="width: 80%;">
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER  -->
+    <div class="footer bg-light">
+        <div class="container" id="ft">
+            <div class="row">
+
+                <!-- first col  -->
+                <div class="col-md-3">
+                    <div class="title">
+                        <a href="#"><img src="../dist/images/logo_menu_03.png" alt="" width="60%"></a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <p>No.342 - London Oxford Street, 012 United States</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Youremail@gmail.com</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>+8486 753 3600</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <div class="social-link">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-google"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+                <!-- second col  -->
+                <div class="col-md-2">
+                    <div class="title">
+                        <h5>Useful Links</h5>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <p>About Us</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Privacy Policy</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Terms & Conditions</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Contract Us</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Help & Support</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- third col  -->
+                <div class="col-md-2">
+                    <div class="title">
+                        <h5>My Account</h5>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <p>My Account</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>My Cart</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>My Wishlist</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Registration</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Check Out</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- fourth col  -->
+                <div class="col-md-5">
+                    <div class="title">
+                        <h5>Subscribe Our Newsletter</h5>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita esse impedit quaerat
+                        doloremque assumenda dolorem possimus laboriosam facilis voluptas nihil, eveniet accusantium
+                        mollitia eum iste architecto necessitatibus voluptatum
+                        non a.</p>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Your email address">
+                        <button class="btn btn-danger" type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="container" id="ft-bottom">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <p>© 2019 CodeAstrology. All Rights Reserved.</p>
+                    </div>
+                </div>
+                <div class="col-md-6" style="text-align: right;">
+                    <span>We accept</span>
+                    <a href="#"><img src="../dist/images/logo_mastercard_03.png" alt=""></a>
+                    <a href="#"><img src="../dist/images/logo_visa_03.png" alt=""></a>
+                    <a href="#"><img src="../dist/images/logo_paypal_03.png" alt=""></a>
+                </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
