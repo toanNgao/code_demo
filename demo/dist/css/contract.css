@@ -1,32 +1,132 @@
+/*--------------MENU-----------------*/
 
-.breadcrumb{
-    margin: 0 55px;
+#list-menu {
+    margin: 0 auto;
+}
+
+#list-menu a {
+    margin        : 0 10px;
+    font-weight   : bold;
+    text-transform: uppercase;
+}
+
+#list-menu a:hover {
+    color        : #fe3e57;
+    border-bottom: solid 1px #fe3e57;
+}
+
+#icon-menu {
+    margin-left: 15px;
+}
+
+.container {
+    padding: 16px;
+}
+
+.banner {
+    margin-top      : 10px;
     background-color: #f6f6f6;
 }
-.fa-angle-double-right{
-    vertical-align: middle;
+
+.banner .list {
+    text-decoration: none;
+    color          : black;
+    margin         : 0 10px;
 }
-.hello{
+
+.banner .list:hover {
+    color: #fe3e57;
+}
+
+.hello {
     background-color: #f6f6f6;
 }
-a{
-    display: flex;
-    height: 50px;
-    width: 50px;
-    align-items: center ;
+
+.info {
+    text-decoration: none !important;
+    display        : flex;
+    height         : 50px;
+    width          : 50px;
+    align-items    : center;
     justify-content: center;
-    box-shadow: 0 0 10px rgba(194, 191, 191, 0.95);
+    box-shadow     : 0 0 10px rgba(194, 191, 191, 0.95);
 }
-p{
+
+.main p {
     margin: 0;
 }
-.form-control{
-    border: none;
+
+.main .form-control {
+    border          : none;
     background-color: #f6f6f6;
 }
-.btn{
+
+.main .btn {
     border-radius: 0;
     color        : #fff;
     font-weight  : 400;
     text-align   : center;
+}
+
+/* -------------FOOTER---------- */
+
+.footer {
+    padding-top: 80px;
+}
+
+#ft {
+    width        : 1000px;
+    padding      : 30px;
+    border-bottom: solid 1px #ececec;
+}
+
+.footer a {
+    text-decoration: none;
+    color          : black;
+}
+
+.footer #ft ul {
+    /* color: #f44336; */
+    list-style-type: none;
+    padding-left   : 0px;
+}
+
+.footer #ft ul li:hover a {
+    color: #f44336;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.social-link a {
+    margin-right: 15px;
+}
+
+#ft-bottom {
+    width: 1000px;
+}
+
+#ft-bottom a {
+    margin-left: 15px;
+}
+
+.footer input[type=text] {
+    width     : 100%;
+    padding   : 12px 20px;
+    margin    : 8px 0;
+    display   : inline-block;
+    border    : 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.footer form {
+    border: 3px solid #f1f1f1;
+}
+
+.footer button {
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width : 100%;
 }
